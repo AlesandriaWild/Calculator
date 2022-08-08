@@ -26,4 +26,6 @@ function multiply(number7, number8) {
 const number7 = parseInt(prompt("Enter a number:"));
 const number8 = parseInt(prompt("Enter another number:"));
 
-window.alert("The additon of your numbers equals " + add(number1, number2) + ". " + "The subtraction of your numbers equals " + subtract(number3, number4) + ". " + "The product of your number is " + divide(number5, number6) + ". " + "The product of your number is " + multiply(number7, number8) + ".");
+console.log(add(number1,number2))
+
+window.alert("The additon of your numbers equals " + "" + add(number1, number2) + "" + ". " + "The subtraction of your numbers equals " + subtract(number3, number4) + ". " + "The product of your number is " + divide(number5, number6) + ". " + "The product of your number is " + multiply(number7, number8) + ".");
